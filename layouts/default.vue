@@ -1,10 +1,27 @@
 <template>
   <div>
-    <div class="shadow-lg p-6">
-      <div class="container mx-auto">
+    <div class="shadow-lg px-6">
+      <div class="container mx-auto h-20 flex justify-between items-center">
         <div class="text-2xl font-bold">
           möjëäüx
         </div>
+        <nav class="flex h-full items-center">
+          <a
+            href="#mission"
+            class="flex h-full items-center text-blue-600 hover:underline"
+            >Mission</a
+          >
+          <a
+            href="#portfolio"
+            class="flex h-full items-center text-blue-600 hover:underline mx-12"
+            >Portfolio</a
+          >
+          <a
+            href="#contact"
+            class="flex h-full items-center text-blue-600 hover:underline"
+            >Contact Us</a
+          >
+        </nav>
       </div>
     </div>
     <Nuxt />
@@ -22,6 +39,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,

@@ -26,8 +26,10 @@
       <div class="container mx-auto">
         <div class="grid gap-12 lg:gap-24 lg:grid-cols-2 items-center">
           <div>
-            <h2 class="text-3xl font-bold mb-4">
-              Our name is new, our experience is vast
+            <h2 class="text-4xl font-bold mb-4 leading-tight">
+              Our name is new<br /><span class="text-blue-500"
+                >Our experience is vast</span
+              >
             </h2>
             <p class="text-gray-700">
               <strong>Just who is möjëäüx</strong>? Some fly-by-night business
@@ -78,7 +80,7 @@
         </div>
       </div>
     </div>
-    <div class="px-6 py-12 lg:py-24 bg-gray-800">
+    <div id="mission" class="px-6 py-12 lg:py-24 bg-gray-800">
       <div class="container mx-auto">
         <h2 class="font-bold text-3xl text-center mb-12 text-white">
           Our Mission
@@ -105,27 +107,38 @@
         <h2 class="font-bold text-3xl text-center mb-12">
           Portfolio
         </h2>
-        <div class="grid grid-cols-2 gap-6">
-          <div v-for="(item, index) in porftolio" :key="index" class="p-6">
-            <div>
-              <img :src="`${item.image}?h=416&w=580`" alt="" />
+        <div class="grid lg:grid-cols-2 gap-6 lg:gap-12">
+          <div
+            v-for="(item, index) in porftolio"
+            :key="index"
+            class="shadow-lg rounded-lg flex flex-col overflow-hidden"
+          >
+            <div class="mb-2 p-6 bg-white">
+              <img
+                class="w-full h-auto"
+                :src="`${item.image}?h=443&w=616`"
+                alt=""
+              />
             </div>
-            <div class="py-2 px-4">
+            <div
+              class="p-8 bg-gray-100 flex-grow text-gray-700 border-t border-gray-200"
+            >
               <div class="flex justify-between items-center">
                 <h3 class="font-bold text-lg">{{ item.name }}</h3>
                 <p v-if="item.link">
                   <a
                     :href="item.link"
-                    class="bg-blue-400 hover:bg-blue-500 text-white rounded font-bold py-1 px-4"
+                    class="bg-orange-500 hover:bg-orange-600 text-white rounded font-bold py-2 px-4"
+                    target="_blank"
                     >Visit Site</a
                   >
                 </p>
               </div>
-              <p class="text-gray-700 mb-2">{{ item.industry }} Industry</p>
-              <p class="text-gray-700 mb-6">
+              <p class="mb-6">{{ item.industry }} Industry</p>
+              <p class="mb-2">
                 <strong>Our contribution:</strong> {{ item.text }}
               </p>
-              <p class="text-gray-700">
+              <p>
                 <strong>Technology used: </strong>
                 <!-- eslint-disable -->
                 <span
@@ -450,7 +463,7 @@ export default {
     return {
       title: 'möjëäüx web design and development',
     }
-  }
+  },
 }
 </script>
 
