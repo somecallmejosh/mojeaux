@@ -39,7 +39,7 @@
       <div class="shadow-lg px-6">
         <div class="container mx-auto h-20 flex justify-between items-center">
           <div class="text-2xl font-bold">
-            möjëäüx
+            moejoe
           </div>
           <div class="lg:hidden">
             <button

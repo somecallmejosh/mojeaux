@@ -15,7 +15,7 @@
             <p class="text-lg lg:text-2xl">
               With over 40 years of combined experience in the digital
               marketplace,
-              <strong>möjëäüx</strong> can offer what you are looking for, from
+              <strong>moejoe</strong> can offer what you are looking for, from
               a landing page to a complex multipage web application.
             </p>
           </div>
@@ -32,7 +32,7 @@
               >
             </h2>
             <p class="text-gray-700">
-              <strong>Just who is möjëäüx</strong>? Some fly-by-night business
+              <strong>Just who is moejoe</strong>? Some fly-by-night business
               trying to make a quick buck on the internet? Not at all. Mike
               Peritore and Josh Briley have
               <strong
@@ -234,7 +234,7 @@
         <div v-else>
           <h3>Thank you!</h3>
           <p>
-            Your information has been submitted to Mike and Josh at möjëäüx. We
+            Your information has been submitted to Mike and Josh at moejoe. We
             will contact you shortly.
           </p>
         </div>
@@ -453,7 +453,7 @@ export default {
   },
   head() {
     return {
-      title: 'möjëäüx web design and development',
+      title: 'moejoe web design and development',
     }
   },
 }
