@@ -432,7 +432,7 @@ export default {
         axios.post(
           '/',
           this.encode({
-            'form-name': 'mojeaux-contact',
+            'form-name': 'contact',
             ...this.form,
           }),
           axiosConfig
@@ -453,7 +453,31 @@ export default {
   },
   head() {
     return {
-      title: 'moejoe web design and development',
+      title: 'moejoe web services',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Web design and development services for your business.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'moejoe web services',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content:
+            'https://images.ctfassets.net/xqaw6epne3xo/7LEcJumNuWEEpg64FTaNV9/04b88ff00eafc6c889890ee24c268bee/mojoesocialshare.jpg?h=250?w=1200&h=627&fit=fill',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Custom web design and development services for your business.',
+        },
+      ],
     }
   },
 }
