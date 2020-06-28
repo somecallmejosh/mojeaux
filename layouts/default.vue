@@ -38,8 +38,13 @@
     <div class="relative z-0">
       <div class="shadow-lg px-6">
         <div class="container mx-auto h-20 flex justify-between items-center">
-          <div class="text-2xl font-bold">
-            moejoe
+          <div class="flex items-center font-semibold">
+            <div
+              class="bg-blue-400 mr-1 h-12 w-12 rounded-full flex items-center justify-center text-white"
+            >
+              <logo class="h-8 fill-current" />
+            </div>
+            <span>moejoe web services</span>
           </div>
           <div class="lg:hidden">
             <button
@@ -78,7 +83,9 @@
   </div>
 </template>
 <script>
+import Logo from '~/components/svg/logo'
 export default {
+  components: { Logo },
   data() {
     return {
       menuIsActive: false,

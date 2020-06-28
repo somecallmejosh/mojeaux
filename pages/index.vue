@@ -15,8 +15,8 @@
             <p class="text-lg lg:text-2xl">
               With over 40 years of combined experience in the digital
               marketplace,
-              <strong>moejoe</strong> can offer what you are looking for, from
-              a landing page to a complex multipage web application.
+              <strong>moejoe</strong> can offer what you are looking for, from a
+              landing page to a complex multipage web application.
             </p>
           </div>
         </div>
