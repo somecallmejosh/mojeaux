@@ -220,3 +220,29 @@
     />
   </svg>
 </template>
+<style>
+.email-sign-in-1 {
+  fill: #ededed;
+}
+.email-sign-in-2 {
+  fill: #889fa2;
+}
+.email-sign-in-3 {
+  fill: #fff;
+}
+.email-sign-in-4 {
+  fill: #c7e9f6;
+}
+.email-sign-in-5 {
+  fill: #08d8d5;
+}
+.email-sign-in-6 {
+  fill: #2e4970;
+}
+.email-sign-in-7 {
+  fill: #04b8bc;
+}
+.email-sign-in-8 {
+  fill: #17e59a;
+}
+</style>

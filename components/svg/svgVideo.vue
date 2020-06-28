@@ -127,3 +127,35 @@
     />
   </svg>
 </template>
+<style>
+.svg-video-1 {
+  fill: #fff;
+}
+.svg-video-2 {
+  fill: #ededed;
+}
+.svg-video-3 {
+  fill: #889fa2;
+}
+.svg-video-4 {
+  fill: #c7e9f6;
+}
+.svg-video-5 {
+  fill: #08d8d5;
+}
+.svg-video-6 {
+  fill: #e6e7e8;
+}
+.svg-video-7 {
+  fill: #a6a8ac;
+}
+.svg-video-8 {
+  fill: #04b8bc;
+}
+.svg-video-9 {
+  fill: #ff494b;
+}
+.svg-video-10 {
+  fill: #f73e48;
+}
+</style>

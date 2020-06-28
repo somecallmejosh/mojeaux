@@ -129,3 +129,26 @@
     />
   </svg>
 </template>
+<style>
+.chart-1 {
+  fill: #ededed;
+}
+.chart-2 {
+  fill: #fff;
+}
+.chart-3 {
+  fill: #889fa2;
+}
+.chart-4 {
+  fill: #c7e9f6;
+}
+.chart-5 {
+  fill: #08d8d5;
+}
+.chart-6 {
+  fill: #2e4970;
+}
+.chart-7 {
+  fill: #ff494b;
+}
+</style>

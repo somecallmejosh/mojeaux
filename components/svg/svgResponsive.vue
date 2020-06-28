@@ -396,4 +396,47 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+.responsive-screens-1 {
+  fill: #fff;
+}
+.responsive-screens-2 {
+  fill: #ededed;
+}
+.responsive-screens-3 {
+  fill: #889fa2;
+}
+.responsive-screens-4 {
+  fill: #c7e9f6;
+}
+.responsive-screens-5 {
+  fill: #08d8d5;
+}
+.responsive-screens-6 {
+  fill: #e6e7e8;
+}
+.responsive-screens-7 {
+  fill: #a6a8ac;
+}
+.responsive-screens-8 {
+  fill: #04b8bc;
+}
+.responsive-screens-9 {
+  fill: #ff494b;
+}
+.responsive-screens-10 {
+  fill: #f73e48;
+}
+.responsive-screens-11 {
+  fill: #c2d0d2;
+}
+.responsive-screens-12 {
+  fill: #2e4970;
+}
+.responsive-screens-13 {
+  fill: #02c17c;
+}
+.responsive-screens-14 {
+  fill: #ffda8e;
+}
+</style>

@@ -83,9 +83,9 @@
     <div id="mission" class="px-6 py-12 lg:py-24 bg-gray-800">
       <div class="container mx-auto">
         <h2 class="font-bold text-3xl text-center mb-12 text-white">
-          Our Mission
+          Our mission is simple
         </h2>
-        <div class="grid grid-cols-4 gap-12">
+        <div class="grid lg:grid-cols-3 gap-6 lg:gap-12">
           <div
             v-for="(mission, index) in missions"
             :key="index"
@@ -123,22 +123,12 @@
             <div
               class="p-8 bg-gray-100 flex-grow text-gray-700 border-t border-gray-200"
             >
-              <div class="flex justify-between items-center">
-                <h3 class="font-bold text-lg">{{ item.name }}</h3>
-                <p v-if="item.link">
-                  <a
-                    :href="item.link"
-                    class="bg-orange-500 hover:bg-orange-600 text-white rounded font-bold py-2 px-4"
-                    target="_blank"
-                    >Visit Site</a
-                  >
-                </p>
-              </div>
+              <h3 class="font-bold text-lg">{{ item.name }}</h3>
               <p class="mb-6">{{ item.industry }} Industry</p>
-              <p class="mb-2">
+              <p class="mb-6">
                 <strong>Our contribution:</strong> {{ item.text }}
               </p>
-              <p>
+              <p class="mb-6">
                 <strong>Technology used: </strong>
                 <!-- eslint-disable -->
                 <span
@@ -148,6 +138,14 @@
                   }}{{ item.technology.length - 1 === techindex ? '' : ',' }} </span
                 >
                 <!-- eslint-enable -->
+              </p>
+              <p v-if="item.link">
+                <a
+                  :href="item.link"
+                  class="bg-orange-500 hover:bg-orange-600 text-white rounded font-bold py-2 px-4"
+                  target="_blank"
+                  >Visit Site</a
+                >
               </p>
             </div>
           </div>
@@ -277,12 +275,6 @@ export default {
           headline: "Develop the web's fastest websites",
           text:
             'Fast websites convert better. And we have so much fun tweeking things to make our sites blaze on the internet!',
-          borderColor: 'red',
-        },
-        {
-          headline: 'Completely enjoy our work and our lives',
-          text:
-            "We do this kind of work because we enjoy it, and each other. We couldn't imagine doing anything else.",
           borderColor: 'green',
         },
       ],
@@ -479,5 +471,14 @@ input {
 }
 .error-text {
   @apply text-red-400 mt-1;
+}
+.border-blue-400 {
+  @apply border-blue-400;
+}
+.border-orange-400 {
+  @apply border-orange-400;
+}
+.border-red-400 {
+  @apply border-red-400;
 }
 </style>

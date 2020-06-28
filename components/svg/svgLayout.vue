@@ -175,3 +175,32 @@
     />
   </svg>
 </template>
+<style>
+.svg-layout-1 {
+  fill: #fff;
+}
+.svg-layout-2 {
+  fill: #ededed;
+}
+.svg-layout-3 {
+  fill: #889fa2;
+}
+.svg-layout-4 {
+  fill: #c7e9f6;
+}
+.svg-layout-5 {
+  fill: #08d8d5;
+}
+.svg-layout-6 {
+  fill: #04b8bc;
+}
+.svg-layout-7 {
+  fill: #02c17c;
+}
+.svg-layout-8 {
+  fill: #ffda8e;
+}
+.svg-layout-9 {
+  fill: #2e4970;
+}
+</style>
