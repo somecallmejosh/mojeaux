@@ -42,7 +42,7 @@
             <div
               class="bg-blue-400 mr-1 h-12 w-12 rounded-full flex items-center justify-center text-white"
             >
-              <logo class="h-8 fill-current" />
+              <logo class="h-8 fill-current mt-1 mr-px" />
             </div>
             <span>moejoe web services</span>
           </div>
@@ -51,12 +51,11 @@
               class="menu-toggle p-0 flex items-center text-gray-800 hover:text-blue-700"
               @click="toggleMenu"
             >
-              <div class="w-6 mr-2" aria-hidden>
+              <div class="w-6" aria-hidden>
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
-              Menu
             </button>
           </div>
           <nav class="hidden lg:flex lg:h-full lg:items-center">
