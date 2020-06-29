@@ -124,10 +124,7 @@
               class="flex flex-col py-8 px-12 lg:px-16 flex-grow text-gray-700"
             >
               <h3 class="font-bold text-gray-900 mb-2">
-                {{ item.name }}
-                <span class="text-gray-700 font-normal"
-                  >{{ item.industry }} website</span
-                >
+                {{ item.name }} {{ item.industry }} website
               </h3>
               <p class="mb-6">
                 {{ item.text }}
@@ -336,7 +333,7 @@ export default {
             'https://images.ctfassets.net/xqaw6epne3xo/5uuGMskvHn322O3h9dHMmL/cecde82d1cc0439b529fef4af39b33ef/berxi.jpg',
         },
         {
-          name: 'IVFCryo Website',
+          name: 'IVFCryo',
           text:
             'Design, CMS development, and project management of the IVF Cryo company website. Auto updates to LinkedIn for each new article entry.',
           industry: 'in vitro fertilization storage',
