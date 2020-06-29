@@ -164,7 +164,7 @@
               Need some help with your website?
             </h2>
           </div>
-          <form @submit.prevent="handleSubmit">
+          <form name="contact" netlify @submit.prevent="handleSubmit">
             <h3 class="font-bold text-3xl mb-1">
               We Can Help!
             </h3>
