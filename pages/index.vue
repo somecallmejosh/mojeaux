@@ -283,10 +283,10 @@ export default {
           name: "America's Test Kitchen",
           text:
             'Custom content management system development for search engine optimization focused content vertical pages.',
-          industry: 'Food and Recipe',
+          industry: 'Food and recipe',
           technology: [
             'Ruby on Rails',
-            'Postgres',
+            'Postgres database',
             'Javascript',
             'HTML',
             'CSS',
@@ -300,7 +300,7 @@ export default {
         {
           name: "Cook's Illustrated",
           text: 'Website and database development for all site sections.',
-          industry: 'Food and Recipe',
+          industry: 'Food and recipe',
           technology: [
             'Ruby on Rails',
             'Postgres',
@@ -334,7 +334,7 @@ export default {
           name: 'IVFCryo Website',
           text:
             'Design, CMS development, and project management of the IVF Cryo company website. Auto updates to LinkedIn for each new article entry.',
-          industry: 'Insurance',
+          industry: 'In Vitro Fertilization',
           link: 'https://www.ivfcryo.com',
           technology: [
             'Vue.js/Nuxt',
@@ -348,11 +348,11 @@ export default {
         },
         {
           name: 'PGA Dell Bracket Challenge',
-          text: 'Design and Development of PGA fantasy sports game',
-          industry: 'Fantasy Sports',
+          text: 'Design and development of PGA fantasy sports game',
+          industry: 'Fantasy sports',
           technology: [
             'Ruby on Rails',
-            'Postgres',
+            'Postgres database',
             'Javascript',
             'HTML',
             'CSS',
@@ -363,11 +363,12 @@ export default {
         },
         {
           name: 'Covid Fit',
-          text: 'Design and Development of PGA fantasy sports game',
-          industry: 'Health and Fitness',
+          text:
+            'Design and development of subscription based health and wellness membership website.',
+          industry: 'Health and fitness',
           technology: [
             'Ruby on Rails',
-            'Postgres',
+            'Postgres database',
             'Javascript',
             'Alpine.js',
             'Web Components',
@@ -381,11 +382,11 @@ export default {
         {
           name: 'NASCAR Fantasy Live Home Page',
           text:
-            'Design, development, and project management of NASCAR Fantasy Sports home page',
-          industry: 'Fantasy Sports',
+            'Design, development, and project management of NASCAR Fantasy Sports home page.',
+          industry: 'Fantasy sports',
           technology: [
             'Ruby on Rails',
-            'Postgres',
+            'Postgres database',
             'JQuery',
             'HTML',
             'CSS',
@@ -397,11 +398,11 @@ export default {
         {
           name: "Breeder's Cup Fantasy Sports App",
           text:
-            "Design, development, and project management of the Breeder's Cup Fantasy Sports Application",
-          industry: 'Insurance',
+            "Design, development, and project management of the Breeder's Cup fantasy sports application.",
+          industry: 'Fantasy sports',
           technology: [
             'Ruby on Rails',
-            'Postgres',
+            'Postgres database',
             'JQuery',
             'HTML',
             'CSS',
@@ -502,7 +503,7 @@ input {
 .border-orange-400 {
   @apply border-orange-400;
 }
-.border-red-400 {
+.border-green-400 {
   @apply border-red-400;
 }
 </style>
