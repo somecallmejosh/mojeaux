@@ -124,7 +124,7 @@
               class="p-8 bg-gray-100 flex-grow text-gray-700 border-t border-gray-200"
             >
               <h3 class="font-bold text-lg">{{ item.name }}</h3>
-              <p class="mb-6">{{ item.industry }} Industry</p>
+              <p class="mb-6">{{ item.industry }}</p>
               <p class="mb-6">
                 <strong>Our contribution:</strong> {{ item.text }}
               </p>
