@@ -111,9 +111,9 @@
           <div
             v-for="(item, index) in porftolio"
             :key="index"
-            class="shadow-lg rounded-lg flex flex-col overflow-hidden"
+            class="flex flex-col overflow-hidden"
           >
-            <div class="mb-2 p-6 bg-white">
+            <div class="bg-white">
               <img
                 class="w-full h-auto"
                 :src="`${item.image}?h=443&w=616`"
@@ -121,15 +121,20 @@
               />
             </div>
             <div
-              class="p-8 bg-gray-100 flex-grow text-gray-700 border-t border-gray-200"
+              class="flex flex-col py-8 px-12 lg:px-16 flex-grow text-gray-700"
             >
-              <h3 class="font-bold text-lg">{{ item.name }}</h3>
-              <p class="mb-6">{{ item.industry }}</p>
+              <h3 class="font-bold text-gray-900 mb-2">
+                {{ item.name }}
+                <span class="text-gray-700 font-normal"
+                  >{{ item.industry }} website</span
+                >
+              </h3>
               <p class="mb-6">
-                <strong>Our contribution:</strong> {{ item.text }}
+                {{ item.text }}
               </p>
-              <p class="mb-6">
-                <strong>Technology used: </strong>
+              <p
+                class="mb-6 mt-auto text-gray-600 pt-4 border-t border-gray-200"
+              >
                 <!-- eslint-disable -->
                 <span
                   v-for="(tech, techindex) in item.technology"
@@ -283,7 +288,7 @@ export default {
           name: "America's Test Kitchen",
           text:
             'Custom content management system development for search engine optimization focused content vertical pages.',
-          industry: 'Food and recipe',
+          industry: 'food and recipe',
           technology: [
             'Ruby on Rails',
             'Postgres database',
@@ -300,7 +305,7 @@ export default {
         {
           name: "Cook's Illustrated",
           text: 'Website and database development for all site sections.',
-          industry: 'Food and recipe',
+          industry: 'food and recipe',
           technology: [
             'Ruby on Rails',
             'Postgres',
@@ -315,10 +320,10 @@ export default {
             'https://images.ctfassets.net/xqaw6epne3xo/34G5WoDtx4OjplvFUkPOD1/fb9b8ab98fdeba02d59592ee31a8981d/cooksillustrated.jpg',
         },
         {
-          name: 'Berxi.com Website',
+          name: 'Berxi.com',
           text:
             'Development of marketing and sales focused website for Berxi.com, a division of Berkshire Hathaway Specialty Insurance. Development of web components library for insurance application and public facing products.',
-          industry: 'Insurance',
+          industry: 'insurance',
           technology: [
             'Vue.js/Nuxt',
             'Contentful CMS',
@@ -334,7 +339,7 @@ export default {
           name: 'IVFCryo Website',
           text:
             'Design, CMS development, and project management of the IVF Cryo company website. Auto updates to LinkedIn for each new article entry.',
-          industry: 'In Vitro Fertilization',
+          industry: 'in vitro fertilization storage',
           link: 'https://www.ivfcryo.com',
           technology: [
             'Vue.js/Nuxt',
@@ -349,7 +354,7 @@ export default {
         {
           name: 'PGA Dell Bracket Challenge',
           text: 'Design and development of PGA fantasy sports game',
-          industry: 'Fantasy sports',
+          industry: 'fantasy sports',
           technology: [
             'Ruby on Rails',
             'Postgres database',
@@ -365,7 +370,7 @@ export default {
           name: 'Covid Fit',
           text:
             'Design and development of subscription based health and wellness membership website.',
-          industry: 'Health and fitness',
+          industry: 'health and fitness',
           technology: [
             'Ruby on Rails',
             'Postgres database',
@@ -383,7 +388,7 @@ export default {
           name: 'NASCAR Fantasy Live Home Page',
           text:
             'Design, development, and project management of NASCAR Fantasy Sports home page.',
-          industry: 'Fantasy sports',
+          industry: 'fantasy sports',
           technology: [
             'Ruby on Rails',
             'Postgres database',
@@ -399,7 +404,7 @@ export default {
           name: "Breeder's Cup Fantasy Sports App",
           text:
             "Design, development, and project management of the Breeder's Cup fantasy sports application.",
-          industry: 'Fantasy sports',
+          industry: 'fantasy sports',
           technology: [
             'Ruby on Rails',
             'Postgres database',
