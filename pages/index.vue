@@ -469,7 +469,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://images.ctfassets.net/xqaw6epne3xo/7LEcJumNuWEEpg64FTaNV9/04b88ff00eafc6c889890ee24c268bee/mojoesocialshare.jpg?h=250?w=1200&h=627&fit=fill',
+            'https://images.ctfassets.net/xqaw6epne3xo/7LEcJumNuWEEpg64FTaNV9/f7053b8d3d371f01ea0fc676568eea4b/mojoesocialshare2.jpg?h=250?w=1200&h=627&fit=fill',
         },
         {
           hid: 'og:description',
